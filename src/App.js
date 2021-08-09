@@ -10,9 +10,11 @@ import Contact from './components/Contact';
 function App() {
     const renderNavFooter = component => {
         return (
+            <>
             <NavBar />
-            {component}
+            { component }
             <Footer />
+            </>
         )
     }
 
