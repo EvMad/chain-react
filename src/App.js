@@ -21,7 +21,7 @@ function App() {
             <Router>
                 <div className="chain-app">
                     <Switch>
-                        <Route path="/about"></Route>
+                        <Route path="/about">{renderNavFooter(<About />)}</Route>
                     </Switch>
                 </div>
             </Router>
