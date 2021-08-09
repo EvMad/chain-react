@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
+import React, {Component} from 'react';
 
-function projectBox() {
-    const [box, setBox] = useState([]);
-
-
-    return (
-        <div>
+class Projects extends Component {
+    render() {
+        return (
+            <div>
             
-        </div>
-    )
+            </div>
+        )
+       
+    }
 }
+
+export default Projects;
