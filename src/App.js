@@ -22,6 +22,8 @@ function App() {
                 <div className="chain-app">
                     <Switch>
                         <Route path="/about">{renderNavFooter(<About />)}</Route>
+                        <Route path="/projects">{renderNavFooter(<ProjectBox />)}</Route>
+                        <Route path="/contact">{renderNavFooter(<Contact />)}</Route>
                     </Switch>
                 </div>
             </Router>
