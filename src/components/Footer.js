@@ -6,6 +6,6 @@ return (
     <div className="foot">
         <span>copyright</span>
     </div>
-)
+);
 
 }
