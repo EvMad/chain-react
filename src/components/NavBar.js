@@ -1,10 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 
-class NavComponent extends Component {
-    render() {
-        return (
-            <div>
+
+
+export default function navigation() {
+    return (
+        <div>
                 <nav>
                     <a className="navA" as={Link} to="/about">About</a>
                     <a className="navA" as={Link} to="/contact">Contact</a>
@@ -12,8 +13,5 @@ class NavComponent extends Component {
                 </nav>
 
             </div>
-        )
-    }
+    )
 }
-
-export default NavComponent;
