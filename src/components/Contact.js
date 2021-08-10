@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class ContactComponent extends Component {
+class Contact extends Component {
     render() {
         return (
             <div>
@@ -11,4 +11,4 @@ class ContactComponent extends Component {
     }
 }
 
-export default ContactComponent;
+export default Contact;

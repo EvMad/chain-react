@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Projects extends Component {
+class ProjectBox extends Component {
     render() {
         return (
             <div>
@@ -11,4 +11,4 @@ class Projects extends Component {
     }
 }
 
-export default Projects;
+export default ProjectBox;
