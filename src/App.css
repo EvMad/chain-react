@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    font-size: 900;
+    font-weight: 900;
     /* color: #ffffff; */
     overflow: hidden;
    
@@ -37,6 +37,6 @@ nav {
     justify-content: flex-start;
     background: black;
     text-align: center;
-    font-size: 400;
+    font-weight: 400;
     padding-bottom: 32px;
 }
