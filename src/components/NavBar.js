@@ -6,9 +6,9 @@ class NavComponent extends Component {
         return (
             <div>
                 <nav>
-                    <a as={Link} to="/about">About</a>
-                    <a as={Link} to="/contact">Contact</a>
-                    <a as={Link} to="/projects">Portfolio</a>
+                    <a className="navA" as={Link} to="/about">About</a>
+                    <a className="navA" as={Link} to="/contact">Contact</a>
+                    <a  className="navA"as={Link} to="/projects">Portfolio</a>
                 </nav>
 
             </div>

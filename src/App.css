@@ -12,6 +12,23 @@ body {
 nav {
     font-size: 900;
     color: #ffffff;
+    overflow: hidden;
+   
+}
+
+.navA {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.foot {
+    height: 200px;
+    width: 100%;
+    border: 2px;
+    padding-bottom: 10px;
+
 }
 
 .chain-app {
