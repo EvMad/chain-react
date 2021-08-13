@@ -19,9 +19,10 @@ class Contact extends Component {
   </label>
         <label>
           Essay:
-          <textarea placeholder="your message here" style={{ alignContent: "flex-start", minWidth: "30%", minHeight: "300px"}} />
+          <textarea placeholder="your message here" style={{ alignContent: "flex-start", minWidth: "30%", minHeight: "200px"}} />
         </label>
-        <input style={{ maxWidth: "10%", minHeight: "50px" }}  type="submit" value="Submit" />
+        <div><input style={{ maxWidth: "10%", minHeight: "50px" }}  type="submit" value="Submit" /></div>
+        
       </form>
       </div>
             </div>
