@@ -5,21 +5,22 @@
 }
 
 
-nav {
+li {
     font-weight: 900;
     overflow: hidden;
     text-decoration: none;
+    color: black;
    
 }
 
-nav:link {
-    color: black,
+li:link {
+    color: black;
 }
 
-nav:hover {
-    color: gray,
+li:hover {
+    color: gray;
 }
 
-nav:visited {
-    color: black,
+li:visited {
+    color: black;
 }
