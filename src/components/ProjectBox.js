@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import './ProjectBox.css';
 import imgOne from './images/1.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithubSquare } from '@fortawesome/free-solid-svg-icons';
+
+const element = <FontAwesomeIcon icon={faGithubSquare} />
 
 class ProjectBox extends Component {
     render() {
@@ -17,8 +21,7 @@ class ProjectBox extends Component {
                         <a href="https://github.com/EvMad" target="blank" rel="noopener noreferrer"
                             class="read-more">Git<span>Hub</span></a>
                         <div class="icon-links">
-                            <a href="https://github.com/EvMad" target="_blank" rel="noopener noreferrer"><i
-                                    class="fas fa-eye"></i></a>
+                            <a href="https://github.com/EvMad" target="_blank" rel="noopener noreferrer">{faGithubSquare}</a>
 
                         </div>
                     </div>
