@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
+* {
+    font-family: 'Merriweather', serif;
+}
+
+
+nav {
+    font-weight: 900;
+    overflow: hidden;
+    text-decoration: none;
+   
+}
+
+nav:link {
+    color: black,
+}
+
+nav:hover {
+    color: gray,
+}
+
+nav:visited {
+    color: black,
+}

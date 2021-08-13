@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import './NavBar.css';
 
 
 
@@ -8,10 +9,10 @@ function NavBar() {
         <div>
                 
                <nav>
-                   <ul style={{ listStyle: 'none', display: 'flex', justifyContent: 'Space-Around', fontWeight: 900 }}>
-                       <li><Link to="/about">About</Link></li>
-                       <li><Link to="/contact">Contact</Link></li>
-                       <li><Link to="/projects">Portfolio</Link></li>
+                   <ul style={{ listStyle: 'none', display: 'flex', justifyContent: 'Space-Around' }}>
+                       <li><Link style={{ textDecoration: 'none', fontFamily: 'Merriweather', fontWeight: 900 }} to="/about">About</Link></li>
+                       <li><Link style={{ textDecoration: 'none', fontFamily: 'Merriweather', fontWeight: 900 }} to="/contact">Contact</Link></li>
+                       <li><Link style={{ textDecoration: 'none', fontFamily: 'Merriweather', fontWeight: 900 }} to="/projects">Portfolio</Link></li>
                    </ul>
                </nav>
                
