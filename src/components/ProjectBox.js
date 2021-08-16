@@ -5,6 +5,8 @@ import noteBook from './images/notebook.jpg';
 import cat from './images/cat.jpg';
 import stage from './images/stage.jpg';
 import paint from './images/paintCan.jpg';
+import link from './images/link.jpg';
+import server from './images/server.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -30,6 +32,38 @@ class ProjectBox extends Component {
                             class="read-more">Git<span>Hub</span></a>
                         <div class="icon-links">
                             <a href="https://github.com/EvMad" target="_blank" rel="noopener noreferrer"><i><FontAwesomeIcon icon={['fab', 'github']} /></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* image-card-end */}
+            <div class="image">
+                <img src={link} alt=""/>
+                <div class="details">
+                    <h2>Linked<span>In</span></h2>
+                    <p></p>
+                    <div class="more">
+                        <a href="https://www.linkedin.com/in/evan-madden-923474211/" target="blank" rel="noopener noreferrer"
+                            class="read-more">Linked<span>In</span></a>
+                        <div class="icon-links">
+                            <a href="https://www.linkedin.com/in/evan-madden-923474211/" target="_blank" rel="noopener noreferrer"><i><FontAwesomeIcon icon={['fas', 'eye']} /></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* image-card-end */}
+            <div class="image">
+                <img src={server} alt=""/>
+                <div class="details">
+                    <h2>Tech<span>Blog</span></h2>
+                    <p></p>
+                    <div class="more">
+                        <a href="https://aqueous-tor-63467.herokuapp.com/" target="blank" rel="noopener noreferrer"
+                            class="read-more">Soap<span>Box</span></a>
+                        <div class="icon-links">
+                            <a href="https://aqueous-tor-63467.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i><FontAwesomeIcon icon={['fas', 'eye']} /></i></a>
 
                         </div>
                     </div>
