@@ -3,9 +3,9 @@ import './contact.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { fabGithub } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, fabGithub);
+library.add(fab, faGithub);
 
 
 
@@ -30,6 +30,8 @@ class Contact extends Component {
         <div><input style={{ maxWidth: "10%", minHeight: "50px" }}  type="submit" value="Submit" /></div>
         
       </form>
+
+
       </div>
             </div>
         )
