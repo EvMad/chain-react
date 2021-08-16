@@ -30,7 +30,7 @@ class Contact extends Component {
         <div><input style={{ maxWidth: "10%", minHeight: "50px" }}  type="submit" value="Submit" /></div>
         
       </form>
-          <ul><li style={{ color: '#fff' }}><FontAwesomeIcon icon={['fa', 'github']} /></li></ul>
+          <ul><li style={{ color: '#fff' }}><FontAwesomeIcon icon={['fab', 'github']} /></li></ul>
       
 
       </div>
