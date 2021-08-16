@@ -5,8 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faGithub);
+library.add(fab, faGithub, faEye);
 
 
 class ProjectBox extends Component {
@@ -40,8 +41,7 @@ class ProjectBox extends Component {
                         <a href="https://github.com/EvMad" target="blank" rel="noopener noreferrer"
                             class="read-more">Git<span>Hub</span></a>
                         <div class="icon-links">
-                            <a href="https://github.com/EvMad" target="_blank" rel="noopener noreferrer"><i
-                                    class="fas fa-eye"></i></a>
+                            <a href="https://github.com/EvMad" target="_blank" rel="noopener noreferrer"><i><FontAwesomeIcon icon={['fas', 'eye']} /></i></a>
 
                         </div>
                     </div>

@@ -2,8 +2,13 @@
 
 * {
     font-family: 'Merriweather', serif;
+   
+}
+
+ul {
     border: 2px;
     border-color: '#ffffff';
+    min-height: 20%;
 }
 
 
