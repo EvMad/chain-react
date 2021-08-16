@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import './contact.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -34,7 +35,8 @@ class Contact extends Component {
             <li></li>
             <li></li>
             <li></li>
-            <li style={{ color: '#fff', fontSize: 40 }}><FontAwesomeIcon icon={['fab', 'github']} /></li>
+            <Link href="https://github.com/EvMad"><li style={{ color: '#fff', fontSize: 40 }}><FontAwesomeIcon icon={['fab', 'github']} /></li></Link>
+            
             </ul>
       
 

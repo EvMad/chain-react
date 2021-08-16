@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
+import Resume from './components/pdf/EBM_dev_res072021B.pdf';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
                         <Route path="/about">{<About />}</Route>
                         <Route path="/projects">{<ProjectBox />}</Route>
                         <Route path="/contact">{<Contact />}</Route>
+                        <Route path="/resume">{<Resume />}</Route>
                     </Switch>
                 </div>
                 <Footer />
