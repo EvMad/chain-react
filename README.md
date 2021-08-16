@@ -7,3 +7,7 @@ This is a Web Development Portfolio created with React and React Router.  Click 
 ## Screenshot
 
 ![screenshot](chainReact.png)
+
+## Screencast
+
+![screencast](chainReact.gif)
