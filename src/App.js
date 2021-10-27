@@ -6,7 +6,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
-import Resume from './components/pdf/EBM_dev_res072021B.pdf';
+import Resume from './components/pdf/resume oct 2021.pdf';
 
 function App() {
 
