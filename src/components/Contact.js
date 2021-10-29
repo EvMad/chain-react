@@ -18,11 +18,11 @@ class Contact extends Component {
                 <form style={{ display: "flex", flexDirection: "column", alignContent: "center"}}>
                 <label>
     Name:
-    <input type="text" placeholder="your name here" name="name" style={{ alignContent: "flex-start", minWidth: "30%", minHeight: "50px"}} />
+    <input type="text" placeholder="this is a mockup" name="name" style={{ alignContent: "flex-start", minWidth: "30%", minHeight: "50px"}} />
   </label>
   <label>
     Email:
-    <input type="text" placeholder="email@email.com" name="name" style={{ alignContent: "flex-start", minWidth: "30%", minHeight: "50px"}} />
+    <input type="text" placeholder="donotsubmit@email.com" name="name" style={{ alignContent: "flex-start", minWidth: "30%", minHeight: "50px"}} />
   </label>
         <label>
           Essay:
